@@ -35,7 +35,7 @@ goto:inicio
 		ngrok tcp 32038
 goto:inicio		
 	:readme
-	start README-START-TCP.txt
+	start READMESTARTTCP.txt
 	start https://ngrok.com/download
 	echo.
 	call :c 0A "NO SE A ENCONTRADO NGROK EN SU EQUIPO"
